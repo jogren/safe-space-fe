@@ -1,5 +1,5 @@
 # README
-# Safe Space
+# SafeSpace
 
 Safe Space is a disaster relief app that is used to check in disaster survivors, and keep an up-to-date status of the disaster relief center (number of people at the center, inventory of supplies, and list of top necessities, for example water, blankets, food, etc.)
 
@@ -7,19 +7,18 @@ Safe Space is a disaster relief app that is used to check in disaster survivors,
 
 You can view the Github repos as well as see the app in production here:
 
-[Front end GitHub](https://github.com/ktsune/safe-space-fe)
+[Frontend Heroku](https://safe-space-fe.herokuapp.com/)
 
-[Front end (public-facing) GitHub](https://github.com/jogren/cross-poll-ui)
+[Frontend Heroku (public-facing)](https://safe-space-ui.herokuapp.com/)
 
-[Back end GitHub](https://github.com/Jake0Miller/safe-space-be)
+[Backend Heroku](https://safe-space-be.herokuapp.com/)
 
-[Front end Heroku](https://safe-space-fe.herokuapp.com/)
 
-[Front end (public-facing) Heroku](https://safe-space-ui.herokuapp.com/)
+[Frontend GitHub](https://github.com/jogren/safe-space-fe)
 
-[Back end Heroku](https://safe-space-be.herokuapp.com/)
+[Frontend GitHub (public-facing)](https://github.com/jogren/cross-poll-ui)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Backend GitHub](https://github.com/jogren/safe-space-be)
 
 #### You can also view the project board here:
 https://github.com/ktsune/safe-space-fe/projects/1
@@ -72,14 +71,6 @@ Check-Out Visitor Page
 $ npm start
 ```
 
-## How to Contribute
-
-If you'd like to contribute to this project, feel free to make a pull request at:
-
-https://github.com/Jake0Miller/safe-space-be/compare
-
-and click on `New Pull Request`
-
 ## Contributors
 
 - Ann Cerveny
@@ -89,15 +80,14 @@ and click on `New Pull Request`
 
 ## Tech Stack List
 
-- React
-- Redux
-- GraphQL
-- JavaScript (ES6+)
-- SASS/SCSS
+- React with Hooks
+- JavaScript(ES6+)
+- CSS3
 - HTML5
-- Node
-- SQL
-- Express
-- Knex
-- PostgreSQL
+- Apollo
 - Testing with Jest & Enzyme
+- Ruby
+- Rails
+- Postgresql
+- Twilio-ruby
+- GraphQL
